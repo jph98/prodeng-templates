@@ -1,0 +1,36 @@
+{
+  "version": 1.0,
+  "company": "Froyo Frozen Yoghurt Corp",
+  "concerns": {
+    "operational": [
+      { 
+        "description": "[sample] Application doesn't scale past one service currently, vertical scaling only",
+        "business-rationale": "This will cause issues for the business growing",
+        "priority": "high",
+        "urgency": "high",
+        "effort": "low",
+        "complete": false
+      }
+    ],
+    "architectural": [
+      { 
+        "description": "[sample] We have blog, cms and ecommerce functionality embedded in a single service in terms of responsibilities",
+        "business-rationale": "These need to be separated out for scale and management reasons",
+        "priority": "low",
+        "urgency": "low",
+        "effort": "high",
+        "complete": false
+      }
+    ],
+    "quality": [
+      { 
+        "description": "[sample] There are zero unit or integration tests currently",
+        "business-rationale": "This is risk that we pass on to an external quality check (QA's) which is expensive",
+        "priority": "high",
+        "urgency": "high",
+        "effort": "medium",
+        "complete": false
+      }
+    ]
+  }
+}
